@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "new",
-    "slug": "new",
+    "name": "b-Online",
+    "slug": "b-online",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bOnline.app"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5b6c6a5a-ce88-484d-9453-1b4b86593811"
+      }
     }
   }
 }
